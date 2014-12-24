@@ -3,12 +3,12 @@ package ceche;
 import java.util.concurrent.ExecutionException;
 
 /**
- * Cache Server Interface Interface.
+ * Cache Server Interface.<br/>
  * Retrieves data from cache
  * @author Angel
  *
- * @param <KEY> key type, key is used to request data.
- * @param <DATA> data type, data is retrieved from ceche based on specified key.
+ * @param <KEY> key type, key is used to request data from cache.
+ * @param <DATA> data type, data is retrieved from cache based on specified key.
  */
 public interface CacheServer<KEY,DATA> {
 		/**

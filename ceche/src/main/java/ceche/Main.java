@@ -14,6 +14,7 @@ public class Main {
 		}
 	};
 
+	@SuppressWarnings("unused")
 	private static final CacheLoader<String, String> checkedLoader = new CacheLoader<String, String>() {
 		public String load(String key) throws IOException {
 			return loadFromDisk(key);
