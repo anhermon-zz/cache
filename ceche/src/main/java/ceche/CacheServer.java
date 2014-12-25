@@ -18,4 +18,6 @@ public interface CacheServer<KEY,DATA> {
 		 * @throws ExecutionException
 		 */
 		public DATA get(KEY key) throws ExecutionException;
+
+		DATA getIfPresent(KEY key) throws ExecutionException;
 }
